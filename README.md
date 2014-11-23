@@ -94,7 +94,7 @@ $jws->getHeader()->getAlgorithm(); //Access to the JOSE header parameters.
    $jws->getPayload()->verify(); //Returns TRUE if the JWT is valid, otherwise it returns a string that contains an error message.
    ```
 
-   To validate "jti" you need create two anonymous functions, and pass them as arguments to the verify method.
+   To validate "jti" value you need to create two anonymous functions, and pass them as arguments to the verify method.
    ```php
    $setJti = function($jti)
    {
