@@ -1,0 +1,19 @@
+{
+    "name": "iachilles/pjwt",
+    "description": "PHP implementation of JSON Web Token (JWT). It provides a simple way to create, sign and verify JWT.",
+    "keywords": ["json web token", "token", "jwt", "jws"],
+    "homepage": "https://github.com/iAchilles/pjwt",
+    "license": "AGPL License 3.0",
+    "authors": [
+        {
+            "name": "Igor Manturov Jr.",
+            "email": "igor.manturov.jr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {"iAchilles\\pjwt\\": ""}
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit bootstrap="./tests/bootstrap.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="pjwt Test Suite">
+            <file>./tests/unit/JoseHeaderTest.php</file>
+            <file>./tests/unit/JwtTest.php</file>
+            <file>./tests/unit/Jws.php</file>
+            <file>./tests/unit/Jwa.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
