@@ -16,7 +16,7 @@ class Jws
 {
     /**
      * @var string|array Secret or a string having the format file://path/to/file.pem (the named file must contain a PEM
-     * encoded private key, or a PEM formatted private key. Also it can be an array with two elements. The second element
+     * encoded private key, or a PEM formatted private key). Also it can be an array with two elements. The second element
      * is a string that represent a password for the encrypted private key.
      */
     public $privateKey;
@@ -86,7 +86,7 @@ class Jws
      * Parses an encoded string representation of the JWS.
      * @param string $jws Encoded string representation of the JWS.
      * @return Jws Instance of the class Jws.
-     * @throws \DomainException If string representation of the JWS is invalid or JWS contains invalid data.
+     * @throws \UnexpectedValueException If string representation of the JWS is invalid or JWS contains invalid data.
      */
     public static function parse($jws)
     {
