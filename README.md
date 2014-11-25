@@ -27,7 +27,7 @@ Installation
 Use [composer](https://getcomposer.org/) to install pJWT:
 
 ```
-composer require iAchilles/pjwt
+composer require iachilles/pjwt
 ```
 
 Code examples
